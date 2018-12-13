@@ -2,75 +2,69 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsiveness Assignment - Bootstrapped</title>
 
-	<title>De Bleeckere</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
-	<link rel="icon" type="image/ico" sizes="32x32" href="assets/images/rob_icon.ico">
-	<link rel="icon" type="image/ico" sizes="16x16" href="assets/images/rob_icon.ico">
-	<link rel="shortcut icon" href="/icons/favicon.ico">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/sizing.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	
-	<nav class="topbar">
-		<header class="top-line">
-			<h1 class="name">Rob De Bleeckere</h1>
-			<a class="contact-tab" href="contact.html">Contact</a>
-			<a class="portfolio-tab" href="portfolio.html">Portfolio</a>
-			<a class="about-tab" href="index.html">About</a>
-		</header>
-	</nav> 
-	
-	<section class="topborderbar">
-	</section> 
-	
-	<section class="midbar">
-		<div class="container">
-			<div class="about-me-box">
-				<h1 class="about-me">Contact</h1>
-				<form>
-					<p>Name</p>
-					<input type="text" placeholder="">
-					<p>Email</p>
-					<input type="email" placeholder="">
-					<p>Message</p>
-					<textarea class="textarea980" rows="8"></textarea>
-					<input type="button" value="Submit" class="submit-button">
-				</form>
-			</div> 
-			<aside class="connect-box">
-				<h3 class="connect-header">Connect with Me</h3>
-				<div class="connect-img-box">
-					<div class="imgc1">
-						<a href="https://github.com/38Times" target="_blank"><img class="connect-images" alt="github" src="assets/images/github.png"></a>
-					</div>
-					<div class="imgc2">
-						<a href="https://www.linkedin.com/in/rob-de-bleeckere-440670172" target="_blank"><img class="connect-images" alt="linkedin"
-							 src="assets/images/linkedin.png"></a>
-					</div>
-					<div class="imgc3">
-						<a href="https://landerapp.com/blog/wp-content/uploads/2018/05/coming-soon.jpg" target="_blank"><img class="connect-images"
-							 alt="twitter" src="assets/images/twitter.png"></a>
-					</div>
-				</div>
-			</aside> 
-		</div> 
-	</section> 
-	
-	<section class="copyrightbar">
-		<div class="copyright">
-			<p>Rob De Bleeckere &#169; 2018</p>
-		</div> 
-	</section> 
+
+    <nav class="navbar navbar-expand-sm mb-4 p-0">
+        <div class="container navbar-expand-md m-0">
+            <a class="index" href="index.html">Rob De Bleeckere</a>
+        </div>
+        <a class="nav-link ml-3" href="index.html">About</a>
+        <div id="nav-divider">|</div>
+        <a class="nav-link m-0" href="portfolio.html">Portfolio</a>
+        <div id="nav-divider">|</div>
+        <a class="nav-link mr-3" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container m-0">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="container p-4 bg-white">
+
+                    <section class="row m-0">
+                        <div class="col-12">
+                            <h2>Contact</h2>
+                        </div>
+                    </section>
+
+                    <hr>
+
+                    <section class="row m-0">
+                        <div class="col-12">
+                            <p>Name<br><input class="w-100"></p>
+                            <p>Email<br><input class="w-100"></p>
+                            <p>Message<br><textarea class="w-100"></textarea></p>
+                            <input id="contact-submit" class="btn btn-primary" onclick="alert ('Button is Useless')"
+                                value="Submit">
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <footer>
+        <div class="footer">
+            <p id="copyright-text">© 2018</p>
+        </div>
+    </footer>
 </body>
 
 </html>
